@@ -7,11 +7,11 @@
 :root{--bg:#FFFFFF;--bg2:#F8F9FB;--bg3:#EEF0F4;--surface:#FFFFFF;--border:rgba(0,0,0,0.08);--border2:rgba(0,0,0,0.14);--text:#0D1117;--text2:#374151;--muted:#6B7280;--subtle:#9CA3AF;--gold:#B8832A;--gold2:#D4A044;--gold-bg:rgba(184,131,42,0.10);--navy:#0B1F3A;--navy-s:rgba(11,31,58,0.07);--green:#16A34A;--green-bg:#DCFCE7;--blue:#1D4ED8;--blue-bg:#DBEAFE;--purple:#7C3AED;--purple-bg:#EDE9FE;--red:#DC2626;--red-bg:#FEE2E2;--nav-h:64px;--radius:10px;--radius2:16px;--shadow:0 1px 3px rgba(0,0,0,0.05),0 4px 16px rgba(0,0,0,0.06);--shadow2:0 8px 32px rgba(0,0,0,0.12);--trans:all 0.22s cubic-bezier(.4,0,.2,1);}
 [data-theme="dark"]{--bg:#0D1117;--bg2:#161B22;--bg3:#21262D;--surface:#161B22;--border:rgba(255,255,255,0.08);--border2:rgba(255,255,255,0.14);--text:#E6EDF3;--text2:#C9D1D9;--muted:#8B949E;--subtle:#6E7681;--gold:#D4A044;--gold2:#E6B96A;--gold-bg:rgba(212,160,68,0.13);--navy-s:rgba(255,255,255,0.05);--green:#4ADE80;--green-bg:rgba(74,222,128,0.12);--blue:#60A5FA;--blue-bg:rgba(96,165,250,0.12);--purple:#A78BFA;--purple-bg:rgba(167,139,250,0.12);--shadow:0 1px 3px rgba(0,0,0,0.3),0 4px 16px rgba(0,0,0,0.3);--shadow2:0 8px 32px rgba(0,0,0,0.5);}
 html{scroll-behavior:smooth}
-body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.7;font-weight:400;transition:background .3s,color .3s;}
+body{font-family:"Times New Roman", Times, serif;background:var(--bg);color:var(--text);line-height:1.7;font-weight:400;transition:background .3s,color .3s;}
 .topnav{position:fixed;top:0;left:0;right:0;height:var(--nav-h);background:var(--surface);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 1.8rem;z-index:300;gap:1rem;box-shadow:var(--shadow);transition:background .3s,border-color .3s;}
 .nav-profile{display:flex;align-items:center;gap:.7rem;flex-shrink:0;text-decoration:none;}
 .nav-avatar{width:36px;height:36px;border-radius:50%;object-fit:cover;object-position:top;border:2px solid var(--gold);flex-shrink:0;}
-.nav-name{font-family:'Syne',sans-serif;font-size:.85rem;font-weight:700;color:var(--text);line-height:1.2;white-space:nowrap;}
+.nav-name{font-family:"Times New Roman", Times, serif;font-size:.85rem;font-weight:700;color:var(--text);line-height:1.2;white-space:nowrap;}
 .nav-role-sm{font-size:.62rem;color:var(--muted);white-space:nowrap;}
 .nav-sep{width:1px;height:26px;background:var(--border);flex-shrink:0;}
 .nav-links{display:flex;align-items:center;gap:.1rem;flex:1;overflow-x:auto;}
@@ -39,8 +39,8 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-
 .section{padding:3.5rem 0;}
 .lbl{font-size:.67rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:600;display:flex;align-items:center;gap:.6rem;margin-bottom:.5rem;}
 .lbl::after{content:'';width:26px;height:1.5px;background:var(--gold);}
-h2{font-family:'Syne',sans-serif;font-size:clamp(1.4rem,2.5vw,1.9rem);font-weight:700;line-height:1.2;color:var(--text);}
-h3{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--text);}
+h2{font-family:"Times New Roman", Times, serif;font-size:clamp(1.4rem,2.5vw,1.9rem);font-weight:700;line-height:1.2;color:var(--text);}
+h3{font-family:"Times New Roman", Times, serif;font-size:1.05rem;font-weight:700;color:var(--text);}
 .lead{font-size:1rem;color:var(--muted);line-height:1.85;}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:1.8rem;box-shadow:var(--shadow);transition:background .3s,border-color .3s;}
 .card-sm{padding:1.1rem 1.4rem;}
@@ -48,9 +48,9 @@ h3{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--t
 .tg{background:var(--gold-bg);color:var(--gold);}.tn{background:var(--navy-s);color:var(--text2);}.tgr{background:var(--green-bg);color:var(--green);}.tb{background:var(--blue-bg);color:var(--blue);}.tp{background:var(--purple-bg);color:var(--purple);}.to{border:1px solid var(--border2);color:var(--muted);background:transparent;}
 .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:1rem;margin-bottom:2rem;}
 .stat{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:1.1rem 1.3rem;border-left:3px solid var(--gold);box-shadow:var(--shadow);}
-.stat-n{font-family:'Syne',sans-serif;font-size:1.8rem;font-weight:800;color:var(--text);}
+.stat-n{font-family:"Times New Roman", Times, serif;font-size:1.8rem;font-weight:800;color:var(--text);}
 .stat-l{font-size:.67rem;text-transform:uppercase;letter-spacing:.1em;color:var(--subtle);margin-top:2px;}
-.st{font-family:'Syne',sans-serif;font-size:.88rem;font-weight:700;color:var(--text);display:flex;align-items:center;gap:.75rem;margin-bottom:1.1rem;}
+.st{font-family:"Times New Roman", Times, serif;font-size:.88rem;font-weight:700;color:var(--text);display:flex;align-items:center;gap:.75rem;margin-bottom:1.1rem;}
 .st::after{content:'';flex:1;height:1px;background:var(--border);}
 .sk-row{margin-bottom:.8rem;}
 .sk-hd{display:flex;justify-content:space-between;font-size:.82rem;color:var(--text2);font-weight:500;margin-bottom:4px;}
@@ -101,7 +101,7 @@ h3{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--t
 
   <!-- UPLOAD GUIDE -->
   <div class="fi d3" style="background:var(--navy);border-radius:16px;padding:2rem;margin:1.5rem 0;color:#fff;">
-    <div style="font-family:'Syne',sans-serif;font-size:.95rem;font-weight:700;margin-bottom:1.1rem;">📋 How to Add Your Images</div>
+    <div style="font-family:"Times New Roman", Times, serif;font-size:.95rem;font-weight:700;margin-bottom:1.1rem;">📋 How to Add Your Images</div>
     <div class="g2" style="gap:2rem;">
       <div>
         <div style="display:flex;flex-direction:column;gap:.8rem;">
