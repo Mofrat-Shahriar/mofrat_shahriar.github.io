@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Mofrat Shahriar · Research</title>
+<meta name="description" content="Portfolio of Md. Mofrat Shahriar – Power Systems Researcher & PhD Aspirant."/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#FFFFFF;--bg2:#F8F9FB;--bg3:#EEF0F4;--surface:#FFFFFF;--surface2:#F8F9FB;--border:rgba(0,0,0,0.08);--border2:rgba(0,0,0,0.14);--text:#0D1117;--text2:#374151;--muted:#6B7280;--subtle:#9CA3AF;--gold:#B8832A;--gold2:#D4A044;--gold-bg:rgba(184,131,42,0.10);--navy:#0B1F3A;--navy-s:rgba(11,31,58,0.07);--green:#16A34A;--green-bg:#DCFCE7;--blue:#1D4ED8;--blue-bg:#DBEAFE;--purple:#7C3AED;--purple-bg:#EDE9FE;--red:#DC2626;--red-bg:#FEE2E2;--nav-h:64px;--radius:10px;--radius2:16px;--shadow:0 1px 3px rgba(0,0,0,0.05),0 4px 16px rgba(0,0,0,0.06);--shadow2:0 8px 32px rgba(0,0,0,0.12);--trans:all 0.22s cubic-bezier(.4,0,.2,1);}
+[data-theme="dark"]{--bg:#0D1117;--bg2:#161B22;--bg3:#21262D;--surface:#161B22;--surface2:#21262D;--border:rgba(255,255,255,0.08);--border2:rgba(255,255,255,0.14);--text:#E6EDF3;--text2:#C9D1D9;--muted:#8B949E;--subtle:#6E7681;--gold:#D4A044;--gold2:#E6B96A;--gold-bg:rgba(212,160,68,0.13);--navy-s:rgba(255,255,255,0.05);--green:#4ADE80;--green-bg:rgba(74,222,128,0.12);--blue:#60A5FA;--blue-bg:rgba(96,165,250,0.12);--purple:#A78BFA;--purple-bg:rgba(167,139,250,0.12);--red:#F87171;--red-bg:rgba(248,113,113,0.12);--shadow:0 1px 3px rgba(0,0,0,0.3),0 4px 16px rgba(0,0,0,0.3);--shadow2:0 8px 32px rgba(0,0,0,0.5);}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.7;font-weight:400;transition:background .3s,color .3s;}
+.topnav{position:fixed;top:0;left:0;right:0;height:var(--nav-h);background:var(--surface);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 1.8rem;z-index:300;gap:1rem;box-shadow:var(--shadow);transition:background .3s,border-color .3s;}
+.nav-profile{display:flex;align-items:center;gap:.7rem;flex-shrink:0;text-decoration:none;}
+.nav-avatar{width:36px;height:36px;border-radius:50%;object-fit:cover;object-position:top;border:2px solid var(--gold);flex-shrink:0;}
+.nav-name{font-family:'Syne',sans-serif;font-size:.85rem;font-weight:700;color:var(--text);line-height:1.2;white-space:nowrap;}
+.nav-role-sm{font-size:.62rem;color:var(--muted);white-space:nowrap;}
+.nav-sep{width:1px;height:26px;background:var(--border);flex-shrink:0;}
+.nav-links{display:flex;align-items:center;gap:.1rem;flex:1;overflow-x:auto;}
+.nav-links::-webkit-scrollbar{display:none;}
+.nav-link{display:flex;align-items:center;gap:.35rem;padding:.35rem .7rem;border-radius:8px;font-size:.8rem;font-weight:500;color:var(--muted);text-decoration:none;transition:var(--trans);white-space:nowrap;flex-shrink:0;}
+.nav-link:hover{color:var(--text);background:var(--navy-s);}
+.nav-link.active{color:var(--gold);background:var(--gold-bg);font-weight:600;}
+.nav-right{display:flex;align-items:center;gap:.5rem;margin-left:auto;flex-shrink:0;}
+.nav-status{display:flex;align-items:center;gap:.35rem;font-size:.68rem;color:var(--muted);white-space:nowrap;}
+.sdot{width:6px;height:6px;border-radius:50%;background:#22C55E;animation:pl 2s infinite;}
+@keyframes pl{0%,100%{opacity:1}50%{opacity:.3}}
+.ico-btn{width:34px;height:34px;border-radius:8px;border:1.5px solid var(--border2);background:var(--surface);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:.95rem;transition:var(--trans);flex-shrink:0;}
+.ico-btn:hover{background:var(--bg3);}
+.hamburger{display:none;}
+.btn{display:inline-flex;align-items:center;gap:.4rem;padding:.38rem .9rem;border-radius:8px;font-size:.78rem;font-weight:500;cursor:pointer;text-decoration:none;transition:var(--trans);border:1.5px solid var(--border2);background:var(--surface);color:var(--text);}
+.btn:hover{background:var(--bg3);}
+.btn-primary{background:var(--navy);color:#fff;border-color:var(--navy);}
+.btn-primary:hover{opacity:.88;}
+.btn-gold{background:var(--gold);color:#fff;border-color:var(--gold);}
+.btn-gold:hover{opacity:.88;}
+.mob-drawer{display:none;position:fixed;top:var(--nav-h);left:0;right:0;background:var(--surface);border-bottom:1px solid var(--border);padding:.6rem 1rem;flex-direction:column;gap:.15rem;z-index:299;box-shadow:var(--shadow2);}
+.mob-drawer.open{display:flex;}
+.mob-drawer .nav-link{font-size:.88rem;padding:.6rem .9rem;}
+.page{padding-top:var(--nav-h);}
+.container{max-width:1100px;margin:0 auto;padding:0 2rem;}
+.section{padding:3.5rem 0;}
+.lbl{font-size:.67rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:600;display:flex;align-items:center;gap:.6rem;margin-bottom:.5rem;}
+.lbl::after{content:'';width:26px;height:1.5px;background:var(--gold);}
+h1{font-family:'Syne',sans-serif;font-size:clamp(2rem,3.5vw,2.9rem);font-weight:800;line-height:1.12;color:var(--text);}
+h2{font-family:'Syne',sans-serif;font-size:clamp(1.4rem,2.5vw,1.9rem);font-weight:700;line-height:1.2;color:var(--text);}
+h3{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--text);}
+.lead{font-size:1rem;color:var(--muted);line-height:1.85;}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:1.8rem;box-shadow:var(--shadow);transition:background .3s,border-color .3s;}
+.card-sm{padding:1.1rem 1.4rem;}
+.tag{display:inline-flex;align-items:center;font-size:.7rem;padding:.2rem .65rem;border-radius:6px;font-weight:500;margin:2px;}
+.tg{background:var(--gold-bg);color:var(--gold);}
+.tn{background:var(--navy-s);color:var(--text2);}
+.tgr{background:var(--green-bg);color:var(--green);}
+.tb{background:var(--blue-bg);color:var(--blue);}
+.tp{background:var(--purple-bg);color:var(--purple);}
+.tr{background:var(--red-bg);color:var(--red);}
+.to{border:1px solid var(--border2);color:var(--muted);background:transparent;}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:1rem;margin-bottom:2rem;}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:1.1rem 1.3rem;border-left:3px solid var(--gold);box-shadow:var(--shadow);}
+.stat-n{font-family:'Syne',sans-serif;font-size:1.8rem;font-weight:800;color:var(--text);}
+.stat-l{font-size:.67rem;text-transform:uppercase;letter-spacing:.1em;color:var(--subtle);margin-top:2px;}
+.st{font-family:'Syne',sans-serif;font-size:.88rem;font-weight:700;color:var(--text);display:flex;align-items:center;gap:.75rem;margin-bottom:1.1rem;}
+.st::after{content:'';flex:1;height:1px;background:var(--border);}
+.tl{position:relative;padding-left:2rem;}
+.tl::before{content:'';position:absolute;left:0;top:8px;bottom:8px;width:2px;background:linear-gradient(to bottom,var(--gold),var(--border));border-radius:2px;}
+.tl-item{position:relative;margin-bottom:2rem;}
+.tl-item::before{content:'';position:absolute;left:-2.42rem;top:6px;width:12px;height:12px;border-radius:50%;background:var(--gold);border:3px solid var(--bg);}
+.tl-item.past::before{background:var(--surface);border:2.5px solid var(--border2);}
+.sk-row{margin-bottom:.8rem;}
+.sk-hd{display:flex;justify-content:space-between;font-size:.82rem;color:var(--text2);font-weight:500;margin-bottom:4px;}
+.sk-track{background:var(--bg3);border-radius:99px;height:5px;overflow:hidden;}
+.sk-fill{height:100%;border-radius:99px;background:linear-gradient(90deg,var(--gold),var(--gold2));}
+.gal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:1.1rem;}
+.gc{border-radius:16px;overflow:hidden;border:1px solid var(--border);background:var(--surface);box-shadow:var(--shadow);transition:var(--trans);}
+.gc:hover{transform:translateY(-4px);box-shadow:var(--shadow2);}
+.gc img,.g-ph{width:100%;height:165px;object-fit:cover;display:block;}
+.g-ph{background:var(--bg3);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.4rem;color:var(--subtle);}
+.g-ph .gi{font-size:1.7rem;opacity:.35;}
+.g-ph .gl{font-size:.72rem;color:var(--muted);font-weight:500;}
+.g-ph .gs{font-size:.63rem;color:var(--subtle);}
+.gc-info{padding:.7rem 1rem;}
+.gc-t{font-size:.81rem;font-weight:600;color:var(--text);}
+.gc-s{font-size:.68rem;color:var(--muted);margin-top:1px;}
+.cl{display:flex;align-items:center;gap:1rem;padding:.85rem 1.1rem;border:1px solid var(--border);border-radius:16px;background:var(--surface);text-decoration:none;color:var(--text);transition:var(--trans);margin-bottom:.7rem;box-shadow:var(--shadow);}
+.cl:hover{border-color:var(--gold);transform:translateX(4px);}
+.ci{width:38px;height:38px;border-radius:10px;background:var(--bg3);display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0;}
+.ct{font-weight:600;font-size:.86rem;}
+.cv{font-size:.74rem;color:var(--muted);}
+.ph{background:var(--bg3);border:2px dashed var(--border2);border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.4rem;padding:2rem 1rem;text-align:center;}
+.ph .pi{font-size:1.8rem;opacity:.35;}
+.ph .pl{font-size:.73rem;color:var(--muted);font-weight:500;}
+.ph .ps{font-size:.63rem;color:var(--subtle);}
+.pub{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:1.5rem 1.7rem;margin-bottom:1.1rem;box-shadow:var(--shadow);transition:background .3s,border-color .3s;}
+.pub-title{font-family:'Syne',sans-serif;font-size:.98rem;font-weight:700;color:var(--text);margin:.55rem 0 .35rem;}
+.pub-authors{font-size:.79rem;color:var(--muted);}
+.pub-venue{font-size:.76rem;color:var(--gold);font-weight:500;margin-top:.3rem;}
+.pub-doi{font-family:'JetBrains Mono',monospace;font-size:.68rem;color:var(--subtle);margin-top:.35rem;}
+.filter-row{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.5rem;}
+.fb{font-size:.73rem;padding:.28rem .85rem;border-radius:20px;border:1.5px solid var(--border2);background:var(--surface);color:var(--muted);cursor:pointer;transition:var(--trans);}
+.fb:hover,.fb.active{background:var(--navy);color:#fff;border-color:var(--navy);}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;}
+.ga{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem;}
+@keyframes fup{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.fi{opacity:0;animation:fup .5s ease forwards;}
+.d1{animation-delay:.05s}.d2{animation-delay:.12s}.d3{animation-delay:.19s}.d4{animation-delay:.26s}.d5{animation-delay:.33s}.d6{animation-delay:.4s}
+@media(max-width:960px){.nav-links{display:none;}.hamburger{display:flex;}.nav-status{display:none;}.container{padding:0 1.1rem;}.g2,.g3{grid-template-columns:1fr;}.section{padding:2.2rem 0;}}
+@media(max-width:540px){.topnav{padding:0 .9rem;gap:.6rem;}.nav-name,.nav-role-sm,.nav-sep{display:none;}}
+</style></head>
+<body>
+<nav class="topnav">
+  <a href="index.html" class="nav-profile"><img src="data:image/jpeg;base64,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" alt="Mofrat" class="nav-avatar"/><div><div class="nav-name">Mofrat Shahriar</div><div class="nav-role-sm">Exec. Engineer · BREB</div></div></a>
+  <div class="nav-sep"></div>
+  <div class="nav-links"><a href="index.html" class="nav-link"><span>🏠</span>Home</a><a href="about.html" class="nav-link"><span>👤</span>About</a><a href="research.html" class="nav-link active"><span>🔬</span>Research</a><a href="experience.html" class="nav-link"><span>💼</span>Experience</a><a href="skills.html" class="nav-link"><span>⚙️</span>Skills</a><a href="phd.html" class="nav-link"><span>🎓</span>PhD</a><a href="gallery.html" class="nav-link"><span>🖼️</span>Gallery</a><a href="resume.html" class="nav-link"><span>📄</span>Resume</a><a href="contact.html" class="nav-link"><span>✉️</span>Contact</a></div>
+  <div class="nav-right">
+    <div class="nav-status"><span class="sdot"></span>Open to PhD</div>
+    <a href="https://scholar.google.com/citations?user=oIdgwScAAAAJ" target="_blank" class="btn btn-gold" style="font-size:.74rem;">🎓 Scholar</a>
+    <div class="ico-btn" id="dmBtn" onclick="toggleDark()" title="Toggle dark mode">🌙</div>
+    <div class="ico-btn hamburger" id="hambBtn" onclick="toggleMenu()">☰</div>
+  </div>
+</nav>
+<div class="mob-drawer" id="mobDrawer"><a href="index.html" class="nav-link" onclick="toggleMenu()"><span>🏠</span>Home</a><a href="about.html" class="nav-link" onclick="toggleMenu()"><span>👤</span>About</a><a href="research.html" class="nav-link active" onclick="toggleMenu()"><span>🔬</span>Research</a><a href="experience.html" class="nav-link" onclick="toggleMenu()"><span>💼</span>Experience</a><a href="skills.html" class="nav-link" onclick="toggleMenu()"><span>⚙️</span>Skills</a><a href="phd.html" class="nav-link" onclick="toggleMenu()"><span>🎓</span>PhD</a><a href="gallery.html" class="nav-link" onclick="toggleMenu()"><span>🖼️</span>Gallery</a><a href="resume.html" class="nav-link" onclick="toggleMenu()"><span>📄</span>Resume</a><a href="contact.html" class="nav-link" onclick="toggleMenu()"><span>✉️</span>Contact</a></div>
+<div class="page">
+<div class="container">
+<div class="section">
+  <div class="lbl fi d1">Research & Publications</div>
+  <h2 class="fi d2">Academic Contributions</h2>
+  <p class="lead fi d3" style="max-width:620px;margin-top:.5rem;">IEEE publications, international conference presentations, and active MSc research at the intersection of power systems, renewable energy, and machine learning.</p>
+
+  <div class="stats-grid" style="margin-top:1.8rem;">
+    <div class="stat fi d1"><div class="stat-n">2</div><div class="stat-l">IEEE Publications</div></div>
+    <div class="stat fi d2"><div class="stat-n">2</div><div class="stat-l">Papers in Preparation</div></div>
+    <div class="stat fi d3"><div class="stat-n">1</div><div class="stat-l">MSc Thesis Active</div></div>
+    <div class="stat fi d4"><div class="stat-n">2017</div><div class="stat-l">First IEEE Paper</div></div>
+  </div>
+
+  <!-- MSc THESIS -->
+  <div class="st fi d2" style="margin-top:1rem;">MSc Thesis Research</div>
+  <div class="pub fi d3" style="border-left:4px solid var(--gold);">
+    <span class="tag tgr">🎓 MSc Thesis · RUET · Enrolled April 2026</span>
+    <div class="pub-title">Rooftop Solar Photovoltaic-Integrated Hybrid AC/DC Microgrid with Adaptive Grid-Forming and Grid-Following Control</div>
+    <div class="pub-authors"><strong>Md. Mofrat Shahriar</strong> · Supervisor: TBD · RUET EEE Department</div>
+    <div class="pub-venue">MSc Research in Progress · Rajshahi University of Engineering & Technology · 2026–</div>
+    <p style="font-size:.84rem;color:var(--muted);margin-top:.7rem;line-height:1.75;">This research investigates the integration of rooftop solar PV into hybrid AC/DC microgrid architectures, developing adaptive control strategies that seamlessly transition between grid-forming (islanded) and grid-following (grid-connected) modes. The work addresses the control challenges arising from high penetration of inverter-based resources in weak distribution grids, targeting real rural Bangladesh grid conditions.</p>
+    <div style="margin-top:.8rem;display:flex;flex-wrap:wrap;gap:.3rem;">
+      <span class="tag tn">Rooftop Solar PV</span><span class="tag tn">Hybrid AC/DC Microgrid</span><span class="tag tn">Grid-Forming Control</span><span class="tag tn">Grid-Following Control</span><span class="tag tn">Inverter Control</span><span class="tag tn">MATLAB/Simulink</span>
+    </div>
+    <div style="margin-top:1rem;" class="ph" style="min-height:100px;">
+      <div class="pi">📊</div>
+      <div class="pl">Research figures coming soon</div>
+      <div class="ps">Upload MATLAB diagrams → see Gallery page for instructions</div>
+    </div>
+  </div>
+
+  <!-- PAPERS IN PREPARATION -->
+  <div class="st fi d2" style="margin-top:2rem;">Papers in Preparation</div>
+
+  <div class="pub fi d3" style="border-left:4px solid var(--blue);">
+    <span class="tag tb">📝 Journal Paper · In Preparation</span>
+    <div class="pub-title">Impact of Generation Mix Transition, Load Shedding, and Cross-Border Import Dependency on Power Demand Forecasting Accuracy</div>
+    <div class="pub-authors"><strong>Md. Mofrat Shahriar</strong> et al.</div>
+    <div class="pub-venue">Target: IEEE Transactions on Power Systems / Sustainable Energy, Grids and Networks · 2025–2026</div>
+    <p style="font-size:.84rem;color:var(--muted);margin-top:.7rem;line-height:1.75;">Investigates how structural changes in Bangladesh's generation mix (coal, gas, renewables, oil), periodic load shedding events, and growing dependency on cross-border power imports from India systematically distort short-term electrical demand forecasting models. Develops correction frameworks that account for these structural non-stationarities.</p>
+    <div style="margin-top:.8rem;display:flex;flex-wrap:wrap;gap:.3rem;">
+      <span class="tag tn">Power Demand Forecasting</span><span class="tag tn">Generation Mix</span><span class="tag tn">Load Shedding</span><span class="tag tn">Cross-Border Import</span><span class="tag tn">Bangladesh Grid</span>
+    </div>
+  </div>
+
+  <div class="pub fi d4" style="border-left:4px solid var(--purple);">
+    <span class="tag tp">📝 Journal Paper · In Preparation</span>
+    <div class="pub-title">Machine Learning and Deep Learning Models for Short-Term Electrical Power Demand Forecasting in Bangladesh: Grid Stability, Cross-Border Import Dependency, and Generation Mix Analysis</div>
+    <div class="pub-authors"><strong>Md. Mofrat Shahriar</strong> et al.</div>
+    <div class="pub-venue">Target: Applied Energy / Energy and AI / IEEE Access · 2025–2026</div>
+    <p style="font-size:.84rem;color:var(--muted);margin-top:.7rem;line-height:1.75;">A comprehensive comparative study of ML and DL architectures (LSTM, GRU, Transformer, XGBoost, Random Forest) for short-term electrical power demand forecasting in Bangladesh, explicitly incorporating grid stability indicators, cross-border import variability, and generation mix transitions as input features. Evaluates accuracy across different grid stability scenarios.</p>
+    <div style="margin-top:.8rem;display:flex;flex-wrap:wrap;gap:.3rem;">
+      <span class="tag tn">LSTM</span><span class="tag tn">GRU</span><span class="tag tn">Transformer</span><span class="tag tn">XGBoost</span><span class="tag tn">Short-Term Forecasting</span><span class="tag tn">Deep Learning</span><span class="tag tn">Bangladesh</span>
+    </div>
+  </div>
+
+  <!-- PUBLISHED -->
+  <div class="st fi d2" style="margin-top:2rem;">Published Works</div>
+
+  <div class="pub fi d3" style="border-left:4px solid var(--gold);">
+    <span class="tag tg">📄 IEEE Conference Paper · 2017</span>
+    <div class="pub-title">Power Quality Improvement of DFIG and PMSG Based Hybrid Wind Farm Using SMES</div>
+    <div class="pub-authors">M. A. A. Khan, <strong>M. M. Shahriar</strong>, M. S. Islam</div>
+    <div class="pub-venue">2nd International Conference on Electrical & Electronic Engineering (ICEEE) · Rajshahi, Bangladesh · 2017 · pp. 1–4</div>
+    <div class="pub-doi">DOI: 10.1109/CEEE.2017.8412899</div>
+    <p style="font-size:.84rem;color:var(--muted);margin-top:.7rem;line-height:1.75;">Developed a MATLAB/Simulink model of a DFIG–PMSG hybrid wind farm with SMES integration for output power stabilization. Demonstrated significant improvement in power quality and reduction in output fluctuations through comparative simulations.</p>
+    <div style="margin-top:.8rem;display:flex;flex-wrap:wrap;gap:.3rem;">
+      <span class="tag tn">DFIG</span><span class="tag tn">PMSG</span><span class="tag tn">SMES</span><span class="tag tn">Wind Farm</span><span class="tag tn">Power Quality</span>
+    </div>
+    <div style="margin-top:.9rem;">
+      <a href="https://doi.org/10.1109/CEEE.2017.8412899" target="_blank" class="btn" style="font-size:.74rem;">🔗 IEEE Xplore ↗</a>
+    </div>
+  </div>
+
+  <div class="pub fi d4" style="border-left:4px solid var(--blue);">
+    <span class="tag tb">🎤 Oral Presentation · 2024</span>
+    <div class="pub-title">Fuzzy Logic Based Energy Management of a Hybrid Power System to Ensure Frequency Stability and Sustainable Green Environment</div>
+    <div class="pub-authors"><strong>Md. Mofrat Shahriar</strong>, Tamanna Tasnim Prova</div>
+    <div class="pub-venue">23rd International Mathematics Conference · University of Rajshahi · May 2024</div>
+    <p style="font-size:.84rem;color:var(--muted);margin-top:.7rem;">Presented a fuzzy logic-based energy management strategy for hybrid power systems, targeting frequency stability and sustainability in the Bangladesh grid context.</p>
+    <div style="margin-top:.8rem;display:flex;flex-wrap:wrap;gap:.3rem;">
+      <span class="tag tn">Fuzzy Logic</span><span class="tag tn">Energy Management</span><span class="tag tn">Frequency Stability</span><span class="tag tn">Hybrid Power System</span>
+    </div>
+  </div>
+
+  <!-- UNDERGRAD THESIS -->
+  <div class="pub fi d5" style="border-left:4px solid var(--subtle);">
+    <span class="tag to">📘 Undergraduate Thesis · 2016</span>
+    <div class="pub-title">Stability Analysis of DFIG and PMSG Based Hybrid Wind Farm Using SMES</div>
+    <div class="pub-authors"><strong>Md. Mofrat Shahriar</strong> · RUET · Dept. of EEE</div>
+    <div class="pub-venue">Supervised by faculty, RUET · Published as ICEEE 2017 paper</div>
+    <div style="margin-top:.8rem;display:flex;flex-wrap:wrap;gap:.3rem;">
+      <span class="tag tn">MATLAB/Simulink</span><span class="tag tn">Hybrid Wind Farm</span><span class="tag tn">SMES</span>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<script>
+(function(){var t=localStorage.getItem('theme')||'light';document.documentElement.setAttribute('data-theme',t);var b=document.getElementById('dmBtn');if(b)b.textContent=t==='dark'?'☀️':'🌙';})();
+function toggleDark(){var c=document.documentElement.getAttribute('data-theme'),n=c==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',n);localStorage.setItem('theme',n);var b=document.getElementById('dmBtn');if(b)b.textContent=n==='dark'?'☀️':'🌙';}
+function toggleMenu(){var d=document.getElementById('mobDrawer');if(d)d.classList.toggle('open');}
+document.addEventListener('click',function(e){var d=document.getElementById('mobDrawer'),h=document.getElementById('hambBtn');if(d&&d.classList.contains('open')&&!d.contains(e.target)&&e.target!==h)d.classList.remove('open');});
+</script></body></html>
