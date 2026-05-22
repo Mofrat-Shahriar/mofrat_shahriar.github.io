@@ -9,11 +9,11 @@
 :root{--bg:#FFFFFF;--bg2:#F8F9FB;--bg3:#EEF0F4;--surface:#FFFFFF;--border:rgba(0,0,0,0.08);--border2:rgba(0,0,0,0.14);--text:#0D1117;--text2:#374151;--muted:#6B7280;--subtle:#9CA3AF;--gold:#B8832A;--gold2:#D4A044;--gold-bg:rgba(184,131,42,0.10);--navy:#0B1F3A;--navy-s:rgba(11,31,58,0.07);--green:#16A34A;--green-bg:#DCFCE7;--blue:#1D4ED8;--blue-bg:#DBEAFE;--purple:#7C3AED;--purple-bg:#EDE9FE;--nav-h:64px;--radius:10px;--radius2:16px;--shadow:0 1px 3px rgba(0,0,0,0.05),0 4px 16px rgba(0,0,0,0.06);--shadow2:0 8px 32px rgba(0,0,0,0.12);--trans:all 0.22s cubic-bezier(.4,0,.2,1);}
 [data-theme="dark"]{--bg:#0D1117;--bg2:#161B22;--bg3:#21262D;--surface:#161B22;--border:rgba(255,255,255,0.08);--border2:rgba(255,255,255,0.14);--text:#E6EDF3;--text2:#C9D1D9;--muted:#8B949E;--subtle:#6E7681;--gold:#D4A044;--gold2:#E6B96A;--gold-bg:rgba(212,160,68,0.13);--navy-s:rgba(255,255,255,0.05);--green:#4ADE80;--green-bg:rgba(74,222,128,0.12);--blue:#60A5FA;--blue-bg:rgba(96,165,250,0.12);--purple:#A78BFA;--purple-bg:rgba(167,139,250,0.12);--shadow:0 1px 3px rgba(0,0,0,0.3),0 4px 16px rgba(0,0,0,0.3);--shadow2:0 8px 32px rgba(0,0,0,0.5);}
 html{scroll-behavior:smooth}
-body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.7;font-weight:400;transition:background .3s,color .3s;}
+body{font-family:"Times New Roman", Times, serif;background:var(--bg);color:var(--text);line-height:1.7;font-weight:400;transition:background .3s,color .3s;}
 .topnav{position:fixed;top:0;left:0;right:0;height:var(--nav-h);background:var(--surface);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 1.8rem;z-index:300;gap:1rem;box-shadow:var(--shadow);transition:background .3s,border-color .3s;}
 .nav-profile{display:flex;align-items:center;gap:.7rem;flex-shrink:0;text-decoration:none;}
 .nav-avatar{width:36px;height:36px;border-radius:50%;object-fit:cover;object-position:top;border:2px solid var(--gold);flex-shrink:0;}
-.nav-name{font-family:'Syne',sans-serif;font-size:.85rem;font-weight:700;color:var(--text);line-height:1.2;white-space:nowrap;}
+.nav-name{font-family:"Times New Roman", Times, serif;font-size:.85rem;font-weight:700;color:var(--text);line-height:1.2;white-space:nowrap;}
 .nav-role-sm{font-size:.62rem;color:var(--muted);white-space:nowrap;}
 .nav-sep{width:1px;height:26px;background:var(--border);flex-shrink:0;}
 .nav-links{display:flex;align-items:center;gap:.1rem;flex:1;overflow-x:auto;}
@@ -42,8 +42,8 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-
 .section{padding:3.5rem 0;}
 .lbl{font-size:.67rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:600;display:flex;align-items:center;gap:.6rem;margin-bottom:.5rem;}
 .lbl::after{content:'';width:26px;height:1.5px;background:var(--gold);}
-h2{font-family:'Syne',sans-serif;font-size:clamp(1.4rem,2.5vw,1.9rem);font-weight:700;line-height:1.2;color:var(--text);}
-h3{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--text);}
+h2{font-family:"Times New Roman", Times, serif;font-size:clamp(1.4rem,2.5vw,1.9rem);font-weight:700;line-height:1.2;color:var(--text);}
+h3{font-family:"Times New Roman", Times, serif;font-size:1.05rem;font-weight:700;color:var(--text);}
 .lead{font-size:1rem;color:var(--muted);line-height:1.85;}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:1.8rem;box-shadow:var(--shadow);transition:background .3s,border-color .3s;}
 .card-sm{padding:1.1rem 1.4rem;}
@@ -54,7 +54,7 @@ h3{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--t
 .tb{background:var(--blue-bg);color:var(--blue);}
 .tp{background:var(--purple-bg);color:var(--purple);}
 .to{border:1px solid var(--border2);color:var(--muted);background:transparent;}
-.st{font-family:'Syne',sans-serif;font-size:.88rem;font-weight:700;color:var(--text);display:flex;align-items:center;gap:.75rem;margin-bottom:1.1rem;}
+.st{font-family:"Times New Roman", Times, serif;font-size:.88rem;font-weight:700;color:var(--text);display:flex;align-items:center;gap:.75rem;margin-bottom:1.1rem;}
 .st::after{content:'';flex:1;height:1px;background:var(--border);}
 .cl{display:flex;align-items:center;gap:1rem;padding:.85rem 1.1rem;border:1px solid var(--border);border-radius:16px;background:var(--surface);text-decoration:none;color:var(--text);transition:var(--trans);margin-bottom:.7rem;box-shadow:var(--shadow);}
 .cl:hover{border-color:var(--gold);transform:translateX(4px);}
@@ -87,7 +87,7 @@ h3{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--t
 <div class="section">
   <div class="lbl fi d1">Resume / CV</div>
   <h2 class="fi d2">Full Curriculum Vitae</h2>
-  <p class="lead fi d3" style="max-width:600px;margin-top:.5rem;">View and download the complete academic and professional resume of Md. Mofrat Shahriar.</p>
+  <p class="lead fi d3" style="max-width:600px;margin-top:.5rem;">View and download the resume of Md. Mofrat Shahriar.</p>
 
   <!-- ACTION BUTTONS -->
   <div class="fi d3" style="display:flex;gap:.75rem;flex-wrap:wrap;margin:1.5rem 0;">
@@ -101,7 +101,7 @@ h3{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--t
     <div style="background:var(--surface);border-bottom:1px solid var(--border);padding:.8rem 1.2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
       <div style="display:flex;align-items:center;gap:.6rem;">
         <span style="font-size:1rem;">📄</span>
-        <span style="font-family:'Syne',sans-serif;font-size:.88rem;font-weight:700;color:var(--text);">Resume_Mofrat_Shahriar.pdf</span>
+        <span style="font-family:"Times New Roman", Times, serif;font-size:.88rem;font-weight:700;color:var(--text);">Resume_Mofrat_Shahriar.pdf</span>
         <span class="tag tgr" style="font-size:.65rem;">2 Pages</span>
       </div>
       <a href="Resume_Mofrat_Shahriar.pdf" download class="btn" style="font-size:.73rem;padding:.3rem .8rem;">⬇ Download</a>
@@ -126,7 +126,7 @@ h3{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--t
         <div style="border-left:3px solid var(--gold);padding-left:.9rem;">
           <div style="font-weight:600;font-size:.9rem;color:var(--text);">MSc in Electrical & Electronic Engineering</div>
           <div style="font-size:.78rem;color:var(--muted);">RUET · Enrolled April 2026 · In Progress</div>
-          <div style="font-size:.75rem;color:var(--gold);font-weight:500;margin-top:2px;font-style:italic;">Thesis: Rooftop Solar PV-Integrated Hybrid AC/DC Microgrid with Adaptive Grid-Forming and Grid-Following Control</div>
+          <div style="font-size:.75rem;color:var(--gold);font-weight:500;margin-top:2px;font-style:italic;">Thesis: Rooftop Solar PV-Integrated Hybrid AC/DC Microgrid with Adaptive Grid-Forming and Grid-Following Control.</div>
         </div>
         <div style="border-left:3px solid var(--border2);padding-left:.9rem;">
           <div style="font-weight:600;font-size:.9rem;color:var(--text);">B.Sc. in Electrical & Electronic Engineering</div>
@@ -144,9 +144,11 @@ h3{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--t
       </div>
       <div style="display:flex;flex-wrap:wrap;gap:.3rem;">
         <span class="tag tg">System Protection</span>
+        <span class="tag tg">Relay Coordination</span>
         <span class="tag tg">Fault Analysis</span>
-        <span class="tag tg">Distribution Design</span>
-        <span class="tag tg">Staff Leadership</span>
+        <span class="tag tg">Equipment Testing</span>
+        <span class="tag tg">Substation Commissioning & Maintenance</span>
+        <span class="tag tg">Staff Training</span>
       </div>
     </div>
   </div>
@@ -155,22 +157,26 @@ h3{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--t
     <div class="card fi d3">
       <div class="st">Publications</div>
       <div style="display:flex;flex-direction:column;gap:.6rem;font-size:.83rem;">
-        <div style="padding:.6rem .8rem;background:var(--gold-bg);border-radius:8px;"><span class="tag tg" style="font-size:.65rem;margin-bottom:.3rem;display:inline-block;">IEEE 2017</span><div style="color:var(--text2);line-height:1.5;">Power Quality Improvement of DFIG & PMSG Based Hybrid Wind Farm Using SMES</div></div>
-        <div style="padding:.6rem .8rem;background:var(--blue-bg);border-radius:8px;"><span class="tag tb" style="font-size:.65rem;margin-bottom:.3rem;display:inline-block;">Conf. 2024</span><div style="color:var(--text2);line-height:1.5;">Fuzzy Logic Based Energy Management of a Hybrid Power System</div></div>
-        <div style="padding:.6rem .8rem;background:var(--purple-bg);border-radius:8px;"><span class="tag tp" style="font-size:.65rem;margin-bottom:.3rem;display:inline-block;">In Prep.</span><div style="color:var(--text2);line-height:1.5;">ML & DL Models for Short-Term Power Demand Forecasting in Bangladesh</div></div>
-        <div style="padding:.6rem .8rem;background:var(--green-bg);border-radius:8px;"><span class="tag tgr" style="font-size:.65rem;margin-bottom:.3rem;display:inline-block;">In Prep.</span><div style="color:var(--text2);line-height:1.5;">Impact of Generation Mix Transition on Power Demand Forecasting Accuracy</div></div>
+        <div style="padding:.6rem .8rem;background:var(--gold-bg);border-radius:8px;"><span class="tag tg" style="font-size:.65rem;margin-bottom:.3rem;display:inline-block;">IEEE Conference 2017</span><div style="color:var(--text2);line-height:1.5;">Power Quality Improvement of DFIG & PMSG Based Hybrid Wind Farm Using SMES.</div></div>
+        <div style="padding:.6rem .8rem;background:var(--blue-bg);border-radius:8px;"><span class="tag tb" style="font-size:.65rem;margin-bottom:.3rem;display:inline-block;">Conference 2024</span><div style="color:var(--text2);line-height:1.5;">Fuzzy Logic Based Energy Management of a Hybrid Power System.</div></div>
+        <div style="padding:.6rem .8rem;background:var(--purple-bg);border-radius:8px;"><span class="tag tp" style="font-size:.65rem;margin-bottom:.3rem;display:inline-block;">In Preparation</span><div style="color:var(--text2);line-height:1.5;">ML & DL Models for Short-Term Power Demand Forecasting in Bangladesh.</div></div>
+        <div style="padding:.6rem .8rem;background:var(--green-bg);border-radius:8px;"><span class="tag tgr" style="font-size:.65rem;margin-bottom:.3rem;display:inline-block;">In Preparation</span><div style="color:var(--text2);line-height:1.5;">Impact of Generation Mix Transition on Power Demand Forecasting Accuracy.</div></div>
       </div>
     </div>
 
     <div class="card fi d4">
-      <div class="st">Key Trainings</div>
+      <div class="st">Key Trainings & Workshops</div>
       <div style="display:flex;flex-direction:column;gap:.45rem;font-size:.81rem;color:var(--muted);">
         <div>⚡ Substation Automation System — BPMI 2026</div>
-        <div>⚡ 33/11 KV Substation Maintenance — BREB 2024</div>
-        <div>⚡ Smart Metering & Smart Grid — BPMI 2020</div>
+        <div>⚡ 33/11 KV Indoor Substation Maintenance — BREB 2024</div>
+        <div>⚡ Net Metering & Solar Irrigation Pump Grid Integration Guideline-2018 — SREDA 2021</div>
         <div>⚡ Solar Irrigation Grid Integration — SREDA 2021</div>
-        <div>⚡ Submarine Cable Fault Location — 2025</div>
-        <div>⚡ Ghorashal Thermal Power Station — 2015</div>
+        <div>⚡ Smart Pre-Payment Metering System & Smart Grid — BPMI 2020</div>
+        <div>⚡ Ghorashal Thermal Power Station — GTC BPDP 2015</div>
+        <div> * Portable Submarine Power Cable Fault Location System — Iconic Engineering Ltd. 2025</div>
+        <div>⚡ Basic Operation of TRAX-280 — BREB 2022</div>
+        <div>⚡ CT & PT Test and Metering Procedure of BREB — BREB 2021</div>
+        <div>⚡ Microcontroller & Robotics — RSR RUET 2013</div>
       </div>
     </div>
 
@@ -179,16 +185,15 @@ h3{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--t
       <div style="display:flex;flex-wrap:wrap;gap:.35rem;">
         <span class="tag tn">MATLAB</span>
         <span class="tag tn">Simulink</span>
-        <span class="tag tn">Python / ML</span>
-        <span class="tag tn">LaTeX</span>
         <span class="tag tn">C Programming</span>
+        <span class="tag tn">LaTeX</span>
         <span class="tag tn">Arduino</span>
         <span class="tag tn">Proteus</span>
-        <span class="tag tn">LSTM / GRU</span>
-        <span class="tag tn">XGBoost</span>
-        <span class="tag tn">Fuzzy Logic</span>
-        <span class="tag tn">RL Methods</span>
-        <span class="tag tn">IEEE Standards</span>
+        <span class="tag tn">ML/DL</span>
+        <span class="tag tn">TRAX-280</span>
+        <span class="tag tn">BAUR Syscompact 4000</span>
+        <span class="tag tn">Microsoft Office Suite</span>
+        <span class="tag tn">Equipment Testing & Commissioning</span>
         <span class="tag tn">ANSI / IEC</span>
       </div>
       <div style="margin-top:1rem;padding:.8rem;background:var(--gold-bg);border-radius:8px;">
