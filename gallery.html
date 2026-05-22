@@ -97,34 +97,9 @@ h3{font-family:"Times New Roman", Times, serif;font-size:1.05rem;font-weight:700
 <div class="container"><div class="section">
   <div class="lbl fi d1">Gallery</div>
   <h2 class="fi d2">Research Figures & Work Photos</h2>
-  <p class="lead fi d3" style="max-width:620px;margin-top:.5rem;">Simulation results, system diagrams, field work, and professional moments. Add your images by following the guide below.</p>
+  <p class="lead fi d3" style="max-width:620px;margin-top:.5rem;">Simulation results, system diagrams, field work, and professional moments.</p>
 
-  <!-- UPLOAD GUIDE -->
-  <div class="fi d3" style="background:var(--navy);border-radius:16px;padding:2rem;margin:1.5rem 0;color:#fff;">
-    <div style="font-family:"Times New Roman", Times, serif;font-size:.95rem;font-weight:700;margin-bottom:1.1rem;">📋 How to Add Your Images</div>
-    <div class="g2" style="gap:2rem;">
-      <div>
-        <div style="display:flex;flex-direction:column;gap:.8rem;">
-          <div style="display:flex;gap:.9rem;"><div style="width:24px;height:24px;border-radius:50%;background:var(--gold);color:var(--navy);font-size:.75rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">1</div><div style="font-size:.83rem;color:rgba(255,255,255,.7);"><strong style="color:#fff;">Prepare images</strong><br>Save as JPG/PNG under 2MB: e.g. <code style="background:rgba(255,255,255,.1);padding:1px 5px;border-radius:4px;font-size:.75rem;">research_simulink.jpg</code>, <code style="background:rgba(255,255,255,.1);padding:1px 5px;border-radius:4px;font-size:.75rem;">work_substation.jpg</code></div></div>
-          <div style="display:flex;gap:.9rem;"><div style="width:24px;height:24px;border-radius:50%;background:var(--gold);color:var(--navy);font-size:.75rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">2</div><div style="font-size:.83rem;color:rgba(255,255,255,.7);"><strong style="color:#fff;">Upload to GitHub</strong><br>Repo → Add file → Upload files → drag images in → Commit with message: <code style="background:rgba(255,255,255,.1);padding:1px 5px;border-radius:4px;font-size:.75rem;">Add gallery images</code></div></div>
-          <div style="display:flex;gap:.9rem;"><div style="width:24px;height:24px;border-radius:50%;background:var(--gold);color:var(--navy);font-size:.75rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">3</div><div style="font-size:.83rem;color:rgba(255,255,255,.7);"><strong style="color:#fff;">Edit gallery.html</strong><br>Find each placeholder card and replace the <code style="background:rgba(255,255,255,.1);padding:1px 5px;border-radius:4px;font-size:.75rem;">g-ph</code> div with: <code style="background:rgba(255,255,255,.1);padding:1px 5px;border-radius:4px;font-size:.75rem;">&lt;img src="your_file.jpg"&gt;</code></div></div>
-          <div style="display:flex;gap:.9rem;"><div style="width:24px;height:24px;border-radius:50%;background:var(--gold);color:var(--navy);font-size:.75rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;">4</div><div style="font-size:.83rem;color:rgba(255,255,255,.7);"><strong style="color:#fff;">Commit & publish</strong><br>GitHub Pages auto-updates within 2 minutes.</div></div>
-        </div>
-      </div>
-      <div>
-        <div style="font-size:.75rem;font-weight:600;color:var(--gold2);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.7rem;">Suggested Filenames</div>
-        <div style="display:flex;flex-direction:column;gap:.5rem;font-size:.8rem;color:rgba(255,255,255,.6);">
-          <div>🔬 <code style="background:rgba(255,255,255,.08);padding:1px 6px;border-radius:4px;">research_simulink_model.jpg</code></div>
-          <div>🔬 <code style="background:rgba(255,255,255,.08);padding:1px 6px;border-radius:4px;">research_smes_waveform.jpg</code></div>
-          <div>🔬 <code style="background:rgba(255,255,255,.08);padding:1px 6px;border-radius:4px;">research_microgrid_topology.jpg</code></div>
-          <div>🏭 <code style="background:rgba(255,255,255,.08);padding:1px 6px;border-radius:4px;">work_substation_1.jpg</code></div>
-          <div>🏭 <code style="background:rgba(255,255,255,.08);padding:1px 6px;border-radius:4px;">work_transformer_test.jpg</code></div>
-          <div>🎓 <code style="background:rgba(255,255,255,.08);padding:1px 6px;border-radius:4px;">conference_math_2024.jpg</code></div>
-          <div>🤖 <code style="background:rgba(255,255,255,.08);padding:1px 6px;border-radius:4px;">project_robot.jpg</code></div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
 
   <div class="filter-row fi d4">
     <button class="fb active" onclick="filterGal('all',this)">All</button>
@@ -141,15 +116,12 @@ h3{font-family:"Times New Roman", Times, serif;font-size:1.05rem;font-weight:700
     <div class="gc" data-cat="research"><div class="g-ph"><img src="research_microgrid_topology.jpg"</div></div><div class="gc-info"><div class="gc-t">AC/DC Microgrid Architecture</div><div class="gc-s">🔬 Research · MSc Thesis</div></div></div>
     <div class="gc" data-cat="research"><div class="g-ph"><img src="research_ml_forecast.png"</div></div><div class="gc-info"><div class="gc-t">Power Demand Forecasting</div><div class="gc-s">🔬 Research · ML/DL Paper</div></div></div>
     <div class="gc" data-cat="work"><div class="g-ph"><img src="work_substation_1.jpg"</div></div><div class="gc-info"><div class="gc-t">33/11 KV Substation</div><div class="gc-s">🏭 Work · BREB Rajshahi</div></div></div>
-    <div class="gc" data-cat="work"><div class="g-ph"><img src="work_transformer_test.jpg"</div></div><div class="gc-info"><div class="gc-t">33/11 KV Substation</div><div class="gc-s">🏭 Work · BREB Rajshahi</div></div></div>
-    <div class="gc" data-cat="work"><div class="g-ph"><img src="work_field_1.jpg"</div></div><div class="gc-info"><div class="gc-t">33/11 KV Substation</div><div class="gc-s">🏭 Work · BREB Rajshahi</div></div></div>
+    <div class="gc" data-cat="work"><div class="g-ph"><img src="work_field_1.jpg"</div></div><div class="gc-info"><div class="gc-t">Submarine Power Cable Testing</div><div class="gc-s">🏭 Work · BREB Rajshahi</div></div></div>
+    <div class="gc" data-cat="work"><div class="g-ph"><img src="work_pv.jpg"</div></div><div class="gc-info"><div class="gc-t">Solar PV Grid Integration</div><div class="gc-s">🏭 Work · BREB Rajshahi</div></div></div>
     <div class="gc" data-cat="academic"><div class="g-ph"><img src="conference_math_2024.jpg"</div></div><div class="gc-info"><div class="gc-t">23rd International Math Conf.</div><div class="gc-s">🎓 Academic · Univ. of Rajshahi</div></div></div>
     <div class="gc" data-cat="academic"><div class="g-ph"><img src="training_bpmi_2026.jpg"</div></div><div class="gc-info"><div class="gc-t">Substation Automation Training</div><div class="gc-s">🎓 Training · BPMI Feb 2026</div></div></div>
     <div class="gc" data-cat="project"><div class="g-ph"><img src="project_robot.jpg"</div></div><div class="gc-info"><div class="gc-t">Line Follower & Obstacle Robot</div><div class="gc-s">🤖 Project · RUET</div></div></div>
     
-    <div class="gc" data-cat="academic"><div class="g-ph"><div class="gi">🎤</div><div class="gl">Conference 2024</div><div class="gs">conference_math_2024.jpg</div></div><div class="gc-info"><div class="gc-t">23rd International Math Conf.</div><div class="gc-s">🎓 Academic · Univ. of Rajshahi</div></div></div>
-    <div class="gc" data-cat="academic"><div class="g-ph"><div class="gi">🏛️</div><div class="gl">BPMI Training 2026</div><div class="gs">training_bpmi_2026.jpg</div></div><div class="gc-info"><div class="gc-t">Substation Automation Training</div><div class="gc-s">🎓 Training · BPMI Feb 2026</div></div></div>
-    <div class="gc" data-cat="project"><div class="g-ph"><div class="gi">🤖</div><div class="gl">Line Follower Robot</div><div class="gs">project_robot.jpg</div></div><div class="gc-info"><div class="gc-t">Line Follower & Obstacle Robot</div><div class="gc-s">🤖 Project · RUET</div></div></div>
   </div>
 </div></div>
 <script>
